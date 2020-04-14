@@ -1,0 +1,16 @@
+# Can be compiled with rustc 1.33.0-nightly
+# For compilation wih other toolchains this TOML might need to be tweaked.
+[package]
+name = "asbestos-test"
+version = "0.1.0"
+authors = ["Vladimir Zholobenko & Aleksey Zholobenko"]
+edition = "2019"
+
+[profile.dev]
+opt-level = 3
+incremental = false
+lto = true
+
+[dependencies]
+toml = "0.4.2"
+serde = {version = "1.0", features = ["derive"]}

@@ -1,0 +1,15 @@
+clean_source_dir = "F:\\"
+sample_source_dir = "E:\\"
+output_dir = "E:\\processed_asbestos"
+amosite_file = "Amosite-Res 4-64.CSV"
+crocidolite_file = "A025 Crocidolite-Res 4-Large-D.CSV"
+chrysotile_file = "A006 Chrysotile-Res 4-D.CSV"
+actinolite_file = "A109 Actinolite-Res 4-Large-D.CSV"
+#anthophyllite_file = ""
+#tremolite_file = ""
+# "ca_min_width" is the minimum width of a peak from a sample with
+# a mix of crocidolite and amosite. 
+ca_min_width = 9.5
+# "noise_level" is the minimum peak size that the program will accept
+# as a genuine peak.
+noise_level = 0.001
