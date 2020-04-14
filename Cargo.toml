@@ -4,7 +4,6 @@
 name = "asbestos-test"
 version = "0.1.0"
 authors = ["Vladimir Zholobenko & Aleksey Zholobenko"]
-edition = "2019"
 
 [profile.dev]
 opt-level = 3
